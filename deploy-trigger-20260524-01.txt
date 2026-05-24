@@ -1,0 +1,1 @@
+Trigger Vercel deployment after fixing the React img border attribute in app/freelance/page.tsx.
