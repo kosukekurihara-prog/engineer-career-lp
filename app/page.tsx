@@ -1,4 +1,4 @@
-const affiliateUrl = '#';
+const affiliateUrl = 'https://px.a8.net/svt/ejp?a8mat=4B3Y37+152XIQ+3SWM+5YJRM';
 
 const painPoints = [
   'SES・客先常駐から抜け出したいが、何から始めればよいかわからない',
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: '相談は無料ですか？',
-    a: '掲載先サービスの無料キャリア相談を案内しています。詳細条件は各サービスの公式サイトでご確認ください。'
+    a: '掲載先サービスの無料キャリア相談を案内しています。申込条件、面談条件、支援対象エリアなどの詳細は各サービスの公式サイトでご確認ください。'
   }
 ];
 
@@ -47,10 +47,10 @@ export default function Home() {
             <h1>求人を探す前に、まずは自分の市場価値を確認しませんか。</h1>
             <p className="lead">
               年収が上がらない、客先常駐を抜け出したい、自社開発やリモート案件を目指したい。
-              そんなITエンジニアのために、キャリアの選択肢を整理する無料相談サービスを紹介します。
+              そんなITエンジニアのために、SIer・SESから自社サービス企業やITコンサル転職を目指しやすい無料キャリア相談サービスを紹介します。
             </p>
             <div className="heroActions">
-              <a href={affiliateUrl} className="primary">無料キャリア相談へ進む</a>
+              <a href={affiliateUrl} className="primary" target="_blank" rel="nofollow sponsored noopener noreferrer">無料キャリア相談へ進む</a>
               <a href="#check" className="secondary">まずは内容を見る</a>
             </div>
             <p className="small">※転職・年収アップを保証するものではありません。申込条件・支援内容は各公式サイトをご確認ください。</p>
@@ -127,7 +127,7 @@ export default function Home() {
         <p className="eyebrow">Next Action</p>
         <h2>今の経験で、どのくらいの年収・企業を狙えるか確認しましょう。</h2>
         <p>転職するかどうかは、相談後に決めれば問題ありません。まずは市場価値を知ることから始めてください。</p>
-        <a href={affiliateUrl} className="primary large">無料キャリア相談へ進む</a>
+        <a href={affiliateUrl} className="primary large" target="_blank" rel="nofollow sponsored noopener noreferrer">無料キャリア相談へ進む</a>
       </section>
 
       <footer>
