@@ -180,7 +180,7 @@ export default function FreelancePage() {
           <a href="/privacy">プライバシーポリシー</a>
         </div>
       </footer>
-      <img border={0} width={1} height={1} src={trackingPixel} alt="" />
+      <img width={1} height={1} src={trackingPixel} alt="" style={{ border: 0 }} />
     </main>
   );
 }
