@@ -129,6 +129,12 @@ export default function Home() {
         <h2>SES・SIerエンジニア向けキャリア記事</h2>
         <p>転職を急ぐ前に、経験の棚卸し、市場価値確認、応募先の選び方を整理しましょう。</p>
         <div className="articleCards homeArticles">
+          <a className="articleCard" href="/freelance/">
+            <span>Freelance</span>
+            <h3>SES・SIerからフリーランス案件を検討する前に確認すべきこと</h3>
+            <p>実務経験者向けに、案件単価、面談、リモート可否、独立前のリスクを整理します。</p>
+            <strong>無料相談LPを見る →</strong>
+          </a>
           <a className="articleCard" href="/articles/ses-exit">
             <span>SES Exit</span>
             <h3>SESから抜け出したいエンジニアが最初にやるべきこと</h3>
@@ -139,12 +145,6 @@ export default function Home() {
             <span>SIer to Product</span>
             <h3>SIerから自社開発へ転職するには？失敗しない準備</h3>
             <p>SIer経験を自社開発企業に評価される形へ変換するポイントをまとめました。</p>
-            <strong>記事を読む →</strong>
-          </a>
-          <a className="articleCard" href="/articles/market-value-check">
-            <span>Market Value</span>
-            <h3>エンジニアの市場価値がわからない人向けチェックリスト</h3>
-            <p>担当工程、技術スタック、業務理解、改善経験から市場価値を整理します。</p>
             <strong>記事を読む →</strong>
           </a>
         </div>
