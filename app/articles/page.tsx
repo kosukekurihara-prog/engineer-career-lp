@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '記事一覧｜SESキャリアナビ',
-  description: 'SES・SIerエンジニア向けに、転職準備、市場価値確認、自社開発転職の考え方を解説します。'
+  description: 'SES・SIerエンジニア向けに、転職準備、市場価値確認、自社開発転職、フリーランス案件の考え方を解説します。'
 };
 
 const articles = [
@@ -21,6 +21,11 @@ const articles = [
     href: '/articles/market-value-check',
     title: 'エンジニアの市場価値がわからない人向けチェックリスト',
     description: '年収、担当工程、技術スタック、業務理解、リーダー経験などから、現在の市場価値を確認するためのチェック項目を整理します。'
+  },
+  {
+    href: '/articles/ses-to-freelance',
+    title: 'SESからフリーランスになる方法｜独立前に確認すべきこと',
+    description: 'SES・SIer経験者向けに、案件単価、リモート条件、週3案件、登録面談、案件比較のポイントを整理します。'
   }
 ];
 
