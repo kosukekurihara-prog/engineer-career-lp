@@ -123,29 +123,28 @@ export default function Home() {
         </div>
       </section>
 
-
       <section className="section">
         <p className="eyebrow">Articles</p>
         <h2>SES・SIerエンジニア向けキャリア記事</h2>
-        <p>転職を急ぐ前に、経験の棚卸し、市場価値確認、応募先の選び方を整理しましょう。</p>
+        <p>転職を急ぐ前に、経験の棚卸し、市場価値確認、応募先の選び方、フリーランス案件の単価相場を整理しましょう。</p>
         <div className="articleCards homeArticles">
-          <a className="articleCard" href="/freelance/">
-            <span>Freelance</span>
-            <h3>SES・SIerからフリーランス案件を検討する前に確認すべきこと</h3>
-            <p>実務経験者向けに、案件単価、面談、リモート可否、独立前のリスクを整理します。</p>
-            <strong>無料相談LPを見る →</strong>
-          </a>
           <a className="articleCard" href="/articles/ses-exit">
-            <span>SES Exit</span>
-            <h3>SESから抜け出したいエンジニアが最初にやるべきこと</h3>
-            <p>求人検索の前に整理すべき経験、転職理由、職務経歴書の見せ方を解説します。</p>
+            <span>SES転職</span>
+            <h3>SES転職で失敗しない進め方。優良SESの見分け方</h3>
+            <p>商流、案件選択権、待機時給与、研修、評価制度、面談質問リストを整理します。</p>
             <strong>記事を読む →</strong>
           </a>
           <a className="articleCard" href="/articles/sier-to-product">
-            <span>SIer to Product</span>
-            <h3>SIerから自社開発へ転職するには？失敗しない準備</h3>
-            <p>SIer経験を自社開発企業に評価される形へ変換するポイントをまとめました。</p>
+            <span>SIer転職</span>
+            <h3>SIer転職で評価される経験。AI・クラウド・DX案件へのつなげ方</h3>
+            <p>SIer経験を自社開発、ITコンサル、社内SE、フリーランス案件へ展開するポイントをまとめました。</p>
             <strong>記事を読む →</strong>
+          </a>
+          <a className="articleCard" href="/freelance/">
+            <span>フリーランス案件</span>
+            <h3>SES・SIerからフリーランスエンジニア案件を検討する前に確認すべきこと</h3>
+            <p>AI活用、クラウド、SRE、セキュリティ経験の見せ方、案件単価、リモート可否、独立前のリスクを整理します。</p>
+            <strong>案件相談LPを見る →</strong>
           </a>
         </div>
       </section>
@@ -160,6 +159,9 @@ export default function Home() {
       <footer>
         <div>© SESキャリアナビ編集部</div>
         <div className="footerLinks">
+          <a href="/articles/ses-exit">SES転職</a>
+          <a href="/articles/sier-to-product">SIer転職</a>
+          <a href="/freelance/">フリーランス案件</a>
           <a href="/operator">運営者情報</a>
           <a href="/privacy">プライバシーポリシー</a>
         </div>
