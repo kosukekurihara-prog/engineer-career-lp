@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/articles/ses-exit',
     '/articles/sier-to-product',
     '/articles/market-value-check',
+    '/articles/ses-to-freelance',
+    '/freelance',
     '/privacy',
     '/operator'
   ];
