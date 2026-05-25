@@ -5,7 +5,7 @@ const trackingPixel = 'https://www12.a8.net/0.gif?a8mat=4B3Y37+BX9JXU+4LXM+626XU
 
 export const metadata: Metadata = {
   title: 'SES・SIerエンジニア向けフリーランス案件相談｜SESキャリアナビ',
-  description: 'SES・SIer経験者向けに、会社を辞める前にフリーランス案件の単価・働き方・リスクを整理するための無料相談導線を紹介します。',
+  description: 'SES・SIer経験者向けに、会社を辞める前にフリーランスエンジニア案件の単価・働き方・リスク・AI活用スキルの見せ方を整理する無料相談導線を紹介します。',
   alternates: {
     canonical: 'https://www.engineer-career.info/freelance/'
   },
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: 'リモート案件はありますか？',
-    a: 'リモート案件を相談できる場合があります。ただし、紹介可否はスキル、実績、希望条件、地域、案件状況によって異なります。'
+    a: 'リモート案件を相談できる場合があります。ただし、近年は出社・ハイブリッド前提の案件もあり、紹介可否はスキル、実績、希望条件、地域、案件状況によって異なります。'
   },
   {
     q: '面談後に必ず案件を紹介してもらえますか？',
@@ -71,12 +71,12 @@ export default function FreelancePage() {
         <div className="heroGrid">
           <div>
             <p className="eyebrow">Freelance Engineer</p>
-            <h1>SES・SIerで年収が頭打ちなら、フリーランス案件の単価を一度確認しませんか。</h1>
+            <h1>SES・SIerで年収が頭打ちなら、フリーランスエンジニア案件の単価を一度確認しませんか。</h1>
             <p className="lead">
-              ITエンジニア実務経験者向けに、現在のスキルで相談できる案件、単価感、働き方、独立前に確認すべきリスクを整理できる無料相談サービスを紹介します。
+              ITエンジニア実務経験者向けに、現在のスキルで相談できる案件、単価感、働き方、AI活用スキルの見せ方、独立前に確認すべきリスクを整理できる無料相談サービスを紹介します。
             </p>
             <div className="heroActions">
-              <a href={affiliateUrl} className="primary" target="_blank" rel="nofollow sponsored noopener noreferrer">無料でフリーランス案件を相談する</a>
+              <a href={affiliateUrl} className="primary" target="_blank" rel="nofollow sponsored noopener noreferrer">まずは自分の単価相場を確認する</a>
               <a href="#target" className="secondary">対象者を確認する</a>
             </div>
             <p className="small">※エンジニア未経験の方は対象外となる場合があります。案件紹介、単価、リモート可否、稼働条件を保証するものではありません。</p>
@@ -108,6 +108,20 @@ export default function FreelancePage() {
               <tr><td>案件条件、リスク、稼働条件を現実的に確認したい</td><td>フリーランスの収入変動や契約終了リスクを避けて考えたい</td></tr>
             </tbody>
           </table>
+        </div>
+      </section>
+
+      <section className="section muted">
+        <p className="eyebrow">2026 Market</p>
+        <h2>フリーランスエンジニア案件は、AI活用・クラウド・SRE・セキュリティ経験で単価差が出やすくなっています。</h2>
+        <p>
+          近年のITフリーランス市場では、単に言語名や経験年数を並べるだけでなく、生成AIツールを使った業務改善、クラウド移行、監視・運用改善、セキュリティ対応、PM・PL経験まで含めて説明できる人材が評価されやすくなっています。
+        </p>
+        <div className="checkList">
+          <div><strong>AI活用経験</strong><p>コード生成、テスト作成、ドキュメント整備、業務自動化など、実務でどう活用したかを整理します。</p></div>
+          <div><strong>クラウド・SRE</strong><p>AWS、GCP、Azure、監視、CI/CD、インフラ改善など、運用に強い経験は案件相談で伝えやすい材料です。</p></div>
+          <div><strong>リモート条件</strong><p>フルリモートに限定しすぎると候補が狭まる場合があります。常駐・ハイブリッドも含めて単価相場を確認しましょう。</p></div>
+          <div><strong>スキルシート</strong><p>言語名だけでなく、課題、担当範囲、改善内容、成果をセットで書くと商談時に伝わりやすくなります。</p></div>
         </div>
       </section>
 
@@ -152,6 +166,16 @@ export default function FreelancePage() {
       </section>
 
       <section className="section">
+        <p className="eyebrow">Internal Links</p>
+        <h2>会社員転職とフリーランスの両方を比較する</h2>
+        <p>独立だけに絞らず、SESからSIer・自社開発へ転職するルートや、SIer経験を案件単価に変えるルートも比較しておくと判断しやすくなります。</p>
+        <div className="articleCards homeArticles">
+          <a className="articleCard" href="/articles/ses-exit"><span>SES転職</span><h3>SESから抜け出したい場合の最初の整理</h3><p>商流、案件選択権、職務経歴書、優良SESの見分け方を確認します。</p><strong>記事を読む →</strong></a>
+          <a className="articleCard" href="/articles/sier-to-product"><span>SIer転職</span><h3>SIer経験を次のキャリアへつなげる</h3><p>クラウド、PM/PL、業務改善経験を評価される形に整理します。</p><strong>記事を読む →</strong></a>
+        </div>
+      </section>
+
+      <section className="section">
         <p className="eyebrow">FAQ</p>
         <h2>よくある質問</h2>
         <div className="faqList">
@@ -166,9 +190,9 @@ export default function FreelancePage() {
 
       <section id="cta" className="cta">
         <p className="eyebrow">Next Action</p>
-        <h2>会社を辞める前に、今の経験で相談できる案件を確認しましょう。</h2>
-        <p>独立するかどうかは、案件条件やリスクを確認してから判断できます。まずは実務経験をもとに、相談可能な案件の方向性を確認してください。</p>
-        <a href={affiliateUrl} className="primary large" target="_blank" rel="nofollow sponsored noopener noreferrer">無料でフリーランス案件を相談する</a>
+        <h2>会社を辞める前に、今の経験で相談できる案件と単価相場を確認しましょう。</h2>
+        <p>独立するかどうかは、案件条件やリスクを確認してから判断できます。AI活用経験やクラウド経験をどうスキルシートに書くべきかも含めて、相談可能な案件の方向性を確認してください。</p>
+        <a href={affiliateUrl} className="primary large" target="_blank" rel="nofollow sponsored noopener noreferrer">まずは自分の単価相場を確認する</a>
         <p className="small">※Web登録後、担当者との面談が必要です。案件紹介や条件を保証するものではありません。</p>
       </section>
 
@@ -176,6 +200,8 @@ export default function FreelancePage() {
         <div>© SESキャリアナビ編集部</div>
         <div className="footerLinks">
           <a href="/">トップ</a>
+          <a href="/articles/ses-exit">SES転職</a>
+          <a href="/articles/sier-to-product">SIer転職</a>
           <a href="/operator">運営者情報</a>
           <a href="/privacy">プライバシーポリシー</a>
         </div>
