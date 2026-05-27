@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import CvLink from '@/app/components/CvLink';
+import CvLink from '../../components/CvLink';
 
 const affiliateUrl = 'https://px.a8.net/svt/ejp?a8mat=4B3Y37+13W2B6+5B0Y+HWAG2';
 
