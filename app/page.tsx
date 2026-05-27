@@ -155,7 +155,7 @@ export default function Home() {
         <h2>今の経験で、どのくらいの年収・企業を狙えるか確認しましょう。</h2>
         <p>転職するかどうかは、相談後に決めれば問題ありません。まずは市場価値と上流転職の可能性を知ることから始めてください。</p>
         <a href={affiliateUrl} className="primary large" target="_blank" rel="nofollow sponsored noopener noreferrer">無料キャリア相談へ進む</a>
-        <img border={0} width={1} height={1} src={trackingPixelUrl} alt="" />
+        <img width={1} height={1} src={trackingPixelUrl} alt="" style={{ border: 0 }} />
         <p className="small">※広告主を初めて利用する方が対象です。学生、重複申込、虚偽申込、面談未実施、利用意思が確認できない場合などは対象外となる場合があります。</p>
       </section>
 
