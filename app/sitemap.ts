@@ -10,6 +10,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/articles/sier-to-product',
     '/articles/market-value-check',
     '/articles/ses-to-freelance',
+    '/articles/ses-to-it-consultant',
+    '/articles/engineer-800man-roadmap',
+    '/articles/agent-comparison',
+    '/articles/interview-questions-template',
     '/freelance',
     '/privacy',
     '/operator'
@@ -18,7 +22,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'weekly' : 'monthly',
-    priority: route === '' ? 1 : route.startsWith('/articles') ? 0.8 : 0.4
+    changeFrequency: route.startsWith('/articles') ? 'weekly' : 'monthly',
+    priority:
+      route === ''
+        ? 1
+        : route === '/articles'
+        ? 0.95
+        : route.startsWith('/articles')
+        ? 0.85
+        : 0.4
   }));
 }
