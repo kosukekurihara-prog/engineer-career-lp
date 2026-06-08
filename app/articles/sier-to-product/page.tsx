@@ -104,13 +104,19 @@ export default function SierToProductArticle() {
       </section>
 
       <section>
-        <h2>SIer経験をフリーランス案件につなげるには</h2>
-        <p>SIer経験は、業務システム、要件定義、設計、PM/PL、クラウド移行などを整理できれば、フリーランス案件相談でも活用できます。ただし、会社員転職と違い、案件では即戦力性と稼働条件の現実感が見られます。</p>
+        <h2>SIer経験はフリーランス案件でも評価材料になる</h2>
+        <p>SIer経験者は、開発言語だけでなく、要件定義、基本設計、ベンダー調整、顧客折衝、PM/PL補佐、業務改善の経験を具体化することで、転職・フリーランス案件の両方で評価されやすくなります。特にクラウド移行、運用自動化、生成AIを使った資料作成・テスト作成・業務効率化の経験は、職務経歴書やスキルシートで具体的に書く価値があります。</p>
+        <h3>業務知識・要件定義・PM/PL経験をどう見せるか</h3>
         <ul>
-          <li>担当工程と成果をスキルシートに明記する</li>
-          <li>言語名だけでなく、業務領域、改善内容、障害対応、顧客折衝を記載する</li>
+          <li>担当工程、成果、顧客折衝、ベンダー調整をスキルシートに明記する</li>
+          <li>言語名だけでなく、業務領域、改善内容、障害対応、関係者調整を記載する</li>
+        </ul>
+        <h3>クラウド・AI活用・運用改善経験をスキルシートに落とす</h3>
+        <ul>
+          <li>クラウド移行、CI/CD、監視、運用自動化、生成AI活用の具体例を書く</li>
           <li>フルリモートだけに限定せず、常駐・ハイブリッドも含めて単価相場を確認する</li>
         </ul>
+        <p><a href="/freelance/">SIer経験で狙えるフリーランス案件の方向性を相談する</a></p>
       </section>
 
       <section>
@@ -123,7 +129,7 @@ export default function SierToProductArticle() {
         <h2>関連記事でキャリアパスを比較する</h2>
         <div className="articleCards homeArticles">
           <a className="articleCard" href="/articles/ses-exit"><span>SES転職</span><h3>SESからSIer・自社開発を狙う前に確認すること</h3><p>商流、案件選択権、職務経歴書、優良SESの見分け方を整理します。</p><strong>記事を読む →</strong></a>
-          <a className="articleCard" href="/freelance/"><span>フリーランス案件</span><h3>SIer経験を案件単価につなげる前に確認すること</h3><p>単価相場、リモート可否、AI活用経験の見せ方を整理します。</p><strong>案件相談LPを見る →</strong></a>
+          <a className="articleCard" href="/freelance/"><span>フリーランス案件</span><h3>SIer経験で狙えるフリーランス案件の方向性を相談する</h3><p>単価相場、リモート可否、AI活用経験の見せ方を整理します。</p><strong>案件相談LPを見る →</strong></a>
         </div>
       </section>
 
