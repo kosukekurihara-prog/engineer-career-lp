@@ -99,6 +99,22 @@ export default function SesExitArticle() {
       </section>
 
       <section>
+        <h2>SESから抜け出す選択肢は「転職」だけではない</h2>
+        <p>SESから抜け出したい場合、すぐに退職や独立を決める必要はありません。まずは転職市場で評価される経験と、フリーランス案件で評価される経験を分けて整理することが重要です。基本設計、詳細設計、運用改善、クラウド移行、顧客折衝、チームリード経験がある場合は、会社員転職とフリーランス案件相談の両方で比較材料になります。</p>
+        <h3>転職で見るべき条件</h3>
+        <ul>
+          <li>商流、案件選択権、評価制度、育成環境が明確か</li>
+          <li>自社開発、SIer、社内SE、ITコンサルなど複数の候補を比較できるか</li>
+        </ul>
+        <h3>フリーランス案件相談で確認すべき条件</h3>
+        <ul>
+          <li>現在の経験で相談できる案件の単価感、稼働条件、リモート可否</li>
+          <li>案件継続、契約終了、税務・保険など独立後のリスク</li>
+        </ul>
+        <p><a href="/freelance/">会社を辞める前にフリーランス案件の単価感を確認する</a></p>
+      </section>
+
+      <section>
         <h2>面談で必ず聞くべき質問リスト</h2>
         <p>SES転職では、面接で会社側の説明を聞くだけでなく、自分から確認する姿勢が重要です。</p>
         <ul>
@@ -131,7 +147,7 @@ export default function SesExitArticle() {
         <h2>関連記事で次の選択肢を比較する</h2>
         <div className="articleCards homeArticles">
           <a className="articleCard" href="/articles/sier-to-product"><span>SIer転職</span><h3>SIer経験を自社開発・DX案件へつなげる</h3><p>上流工程、クラウド、業務改善経験の見せ方を整理します。</p><strong>記事を読む →</strong></a>
-          <a className="articleCard" href="/freelance/"><span>フリーランス案件</span><h3>SES・SIer経験を案件単価へ変える前に確認すること</h3><p>単価相場、リモート可否、独立リスクを相談前に整理します。</p><strong>案件相談LPを見る →</strong></a>
+          <a className="articleCard" href="/freelance/"><span>フリーランス案件</span><h3>会社を辞める前にフリーランス案件の単価感を確認する</h3><p>単価相場、リモート可否、独立リスクを相談前に整理します。</p><strong>案件相談LPを見る →</strong></a>
         </div>
       </section>
 
