@@ -129,6 +129,12 @@ export default function Home() {
         <h2>SES・SIerエンジニア向けキャリア記事</h2>
         <p>転職を急ぐ前に、経験の棚卸し、市場価値確認、応募先の選び方、フリーランス案件の単価相場を整理しましょう。</p>
         <div className="articleCards homeArticles">
+          <a className="articleCard" href="/articles/ses-company-selection">
+            <span>優良SES選び</span>
+            <h3>SES企業の選び方。優良SESを見極める7つのポイント</h3>
+            <p>案件選択制、還元率、商流、待機時給与、キャリア支援の確認項目を整理します。</p>
+            <strong>記事を読む →</strong>
+          </a>
           <a className="articleCard" href="/articles/ses-exit">
             <span>SES転職</span>
             <h3>SES転職で失敗しない進め方。優良SESの見分け方</h3>
@@ -162,6 +168,7 @@ export default function Home() {
       <footer>
         <div>© SESキャリアナビ編集部</div>
         <div className="footerLinks">
+          <a href="/articles/ses-company-selection">優良SES選び</a>
           <a href="/articles/ses-exit">SES転職</a>
           <a href="/articles/sier-to-product">SIer転職</a>
           <a href="/articles/ses-to-freelance">フリーランス独立</a>
