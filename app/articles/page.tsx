@@ -8,6 +8,11 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    href: '/articles/ses-company-selection',
+    title: '【2026年版】SES企業の選び方｜優良SESを見極める7つのポイント',
+    description: '案件選択制、還元率、商流、待機時給与、キャリア支援など、SES企業選びで失敗しないための確認項目を解説します。'
+  },
+  {
     href: '/articles/ses-exit',
     title: 'SESから抜け出したいエンジニアが最初にやるべきこと',
     description: '求人検索の前に、案件経歴・技術スタック・転職理由を整理し、自社サービスや社内SEへの可能性を確認する手順を解説します。'
